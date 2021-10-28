@@ -16,5 +16,4 @@ export class HeaderComponent implements OnInit {
   onSelect(param: string){
       this.display.emit(param)
   }
-
 }
